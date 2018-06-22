@@ -6,11 +6,10 @@ file_name = "197_cpu_act.tsv"
 
 df1 = pd.read_csv(file_name,sep="\t")
 
-#print(df1.head())
+
 
 dfshape = df1.shape
 
-#print(dfshape[1])
 
 len_x = (dfshape[1]-1)
 
@@ -31,4 +30,4 @@ reg = linear_model.LinearRegression()
 
 reg.fit(X,Y)
 
-print(reg.coef_,reg.intercept_)
+print("Coefficeint(s): ",reg.coef_,"  Intercept: "reg.intercept_)
