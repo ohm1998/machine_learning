@@ -1,0 +1,4 @@
+I have used the elec.py file to solve the regression model.
+
+
+i have used sklearn to make the regression model alongside pandas and numpy.
